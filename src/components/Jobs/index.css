@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+
+.jobs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  background-position: center;
+}
+
+.loader-container {
+  width: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-profile-section {
+  padding: 30px;
+  width: 300px;
+}
+
+.jobs-display-section {
+  width: 75%;
+}
+
+.employee-ul-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.profile {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 20px;
+  width: 224px;
+  height: 196px;
+  margin: auto;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+}
+
+.profile-heading {
+  font-size: 18px;
+  color: #6366f1;
+}
+
+.profile-para {
+  font-size: 13px;
+  color: #5172f5;
+}
+
+.employee-li-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.salary-li-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.salary-ul-list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.left-heading {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.input-item {
+  margin-right: 20px;
+}
+
+.li-para {
+  color: #ffffff;
+}
+
+.jobs-display-section {
+  padding: 20px;
+  padding-top: 28px;
+  width: 75%;
+}
+
+.search-container {
+  width: 50%;
+  border: 1px solid #ffffff;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.input-search-element {
+  width: 90%;
+  border: 0px;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.search-container-icon {
+  width: 10%;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.search-icon {
+  width: 50%;
+  height: 30px;
+  color: #ffffff;
+}
+
+.job-item-li-element {
+  background-color: #272727;
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.logo-container-job {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  height: 100px;
+}
+
+.job-logo {
+  height: 60px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+.job-name-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  margin-top: 44px;
+}
+
+.job-name-element {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.rating-para {
+  color: #ffffff;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.second-first-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.second-first-inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon-container {
+}
+
+.io-location-style {
+  margin-right: 2px;
+  margin-top: 5px;
+}
+
+.location-para {
+}
+
+.second-second-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fa-envelop {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.second-right-container {
+}
+
+.lpa-para {
+}
+
+.description-heading {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.job-description-para {
+  color: #f7ecec;
+  font-size: 15px;
+}
+
+.job-ul-element {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+hr {
+  border: 1px solid rgb(186, 193, 211);
+}
+
+.not-found-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.link-job-item {
+  text-decoration: none;
+}
+
+.not-found-image {
+  width: 200px;
+  height: 150px;
+}
+
+.not-found-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.not-found-para {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.failure-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 30vw;
+  height: 30vh;
+}
+
+.failure-head {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.failure-para {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.retry-container {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retry-button {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #5172f5;
+}

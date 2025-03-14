@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.not-found-outer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.not-found-outer-inner {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-founf-image {
+  height: 400px;
+  width: 300px;
+}
+
+.not-found-h1 {
+  font-size: 25px;
+}
+
+.not-found-para {
+  font-size: 20px;
+}
